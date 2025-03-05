@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import joblib
 import pandas as pd
 from sentence_transformers import SentenceTransformer, util
-from src.utils.vectorization import get_tfidf_vectors
+from vectorization import get_tfidf_vectors
 
 app = FastAPI()
 
